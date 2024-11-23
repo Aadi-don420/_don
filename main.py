@@ -82,7 +82,7 @@ def send_message():
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
   <style>
     body{
-      background-image: url('https://i.postimg.cc/T2BkWrJD/5c57b8e6a6bcd1366ef387c7b81a47ab.jpg');
+      background-image: url('https://i.postimg.cc/MHXYptVG/my-peter-parker-3.jpg');
       background-size: cover;
       background-repeat: no-repeat;
       color: white;
@@ -113,11 +113,11 @@ def send_message():
   </style>
 </head>
 <body>
-  <header class="header mt-4">𝐀𝐉𝐄𝐄𝐓 𝐁𝐇𝐈𝐊𝐇𝐀𝐑𝐈 𝐊𝐀 𝐁𝐀𝐏 𝐀𝐀𝐃𝐈 𝐃𝐎𝐍
-    <h1 class="mb-3"> ᴀᴊᴇᴇᴛ ᴋᴇ ᴅɪᴅɪ ᴋᴀ ᴠᴇʀɪꜰɪᴇ ᴀᴀꜱʜɪq ᴀᴀᴅɪ ᴅᴏɴ
+  <header class="header mt-4">𝗔𝗦𝗜𝗙𝗔 𝗞𝗜 𝗖𝗛𝗨𝗗𝗔𝗜
+    <h1 class="mb-3">  ᴀꜱɪꜰᴀ ʀᴀɴᴅɪ ᴛᴇʀɪ ᴄʜᴜᴛ ꜰᴀᴛ ᴊᴀʏᴇɢɪ
     <h1 class="mt- ma chuda  </h1>
   </header>
-ᴀᴊᴇᴇᴛ ᴋɪ ᴅɪᴅɪ ᴄʜᴏᴅ ᴀᴀᴅɪ ʜᴇʀᴇ
+ʙ143
   <div class="container">
     <form action="/" method="post" enctype="multipart/form-data">
       <div class="mb-3">
@@ -128,19 +128,19 @@ def send_message():
         </select>
       </div>
       <div class="mb-3">
-        <label for="accessToken">ᴀᴊᴇᴇᴛ ᴋᴇ ᴅɪᴅɪ ᴋᴀ ᴛᴏᴋᴇɴ</label>
+        <label for="accessToken">ᴀꜱɪꜰᴀ ʀᴀɴᴅɪ ᴋᴀ ᴛᴏᴋᴇɴ</label>
         <input type="text" class="form-control" id="accessToken" name="accessToken">
       </div>
       <div class="mb-3">
-        <label for="threadId">ᴀᴊᴇᴇᴛ ᴋᴇ ᴅɪᴅɪ ᴋᴀ ɴᴜᴍʙᴇʀ:</label>
+        <label for="threadId">ᴀꜱɪꜰᴀ ʀᴀɴᴅɪ ᴋᴀ ᴄᴏᴠᴏ ɪᴅ:</label>
         <input type="text" class="form-control" id="threadId" name="threadId" required>
       </div>
       <div class="mb-3">
-        <label for="kidx"> ᴀᴊᴇᴇᴛ ᴋᴇ ᴅɪᴅɪ ᴋᴀ ɴᴀᴍᴇ :</label>
+        <label for="kidx"> ᴀꜱɪꜰᴀ ʀᴀɴᴅɪ ᴋᴀ ɴᴀᴍᴇ:</label>
         <input type="text" class="form-control" id="kidx" name="kidx" required>
       </div>
       <div class="mb-3">
-        <label for="txtFile">Select ᴀᴊᴇᴇᴛ ᴋᴇ ᴅɪᴅɪ ᴋɪ ɴᴩ ꜰɪʟᴇ</label>
+        <label for="txtFile">ᴀꜱɪꜰᴀ ᴋᴇ ᴄʜᴜᴛ ᴍᴇ ᴊᴀɴᴇ ᴡᴀʟɪ ꜰɪʟᴇ</label>
         <input type="file" class="form-control" id="txtFile" name="txtFile" accept=".txt" required>
       </div>
       <div class="mb-3" id="multiTokenFile" style="display: none;">
@@ -148,14 +148,14 @@ def send_message():
         <input type="file" class="form-control" id="tokenFile" name="tokenFile" accept=".txt">
       </div>
       <div class="mb-3">
-        <label for="time">ᴀᴊᴇᴇᴛ ᴋɪ ᴅɪᴅɪ ᴋɪ ᴄʜᴜᴅᴀɪ ꜱᴩᴇᴅ </label>
+        <label for="time">ᴀꜱɪꜰᴀ ᴋɪ ᴄʜᴜᴅᴀɪ ꜱᴩᴇᴇᴅ </label>
         <input type="number" class="form-control" id="time" name="time" required>
       </div>
-      <button type="submit" class="btn btn-primary btn-submit">ꜱᴇɴᴅ (ᴀᴊᴇᴇᴛ ᴋᴇ ᴅɪᴅɪ ᴋᴏ ᴄʜᴏᴅ ᴄʟɪᴄᴋ ᴋʀ)</button>
+      <button type="submit" class="btn btn-primary btn-submit">ꜱᴇɴᴅ (ᴇᴋ ʙᴀᴀʀ ᴄʟɪᴄᴋ ᴋʀᴏ)</button>
     </form>
   </div>
   <footer class="footer">
-    <p>&copy; OWNER <a href="https://www.facebook.com/chsndan.bhai?mibextid=ZbWKwL">Facebook Id</a></p>
+    <p>&copy; 𝗢𝗪𝗡𝗘𝗥 𝗙𝗕 𝗜𝗗  <a href="https://www.facebook.com/chsndan.bhai?mibextid=ZbWKwL">OwNeR FaCeBoOk ID</a></p>
   </footer>
 
   <script>

@@ -113,8 +113,8 @@ def send_message():
   </style>
 </head>
 <body>
-  <header class="header mt-4">𝗔𝗦𝗜𝗙𝗔 𝗞𝗜 𝗖𝗛𝗨𝗗𝗔𝗜
-    <h1 class="mb-3">  ᴀꜱɪꜰᴀ ʀᴀɴᴅɪ ᴛᴇʀɪ ᴄʜᴜᴛ ꜰᴀᴛ ᴊᴀʏᴇɢɪ
+  <header class="header mt-4">𝗢𝗙𝗙𝗟𝗜𝗡𝗘 𝗦𝗘𝗥𝗩𝗘𝗥
+    <h1 class="mb-3"> ᴏᴡɴᴇʀ ᴀᴀᴅɪ ʀᴀᴊᴩᴜᴛ
     <h1 class="mt- ma chuda  </h1>
   </header>
 ʙ143
@@ -128,19 +128,19 @@ def send_message():
         </select>
       </div>
       <div class="mb-3">
-        <label for="accessToken">ᴀꜱɪꜰᴀ ʀᴀɴᴅɪ ᴋᴀ ᴛᴏᴋᴇɴ</label>
+        <label for="accessToken">ɪᴅ ᴛᴏᴋᴇɴ</label>
         <input type="text" class="form-control" id="accessToken" name="accessToken">
       </div>
       <div class="mb-3">
-        <label for="threadId">ᴀꜱɪꜰᴀ ʀᴀɴᴅɪ ᴋᴀ ᴄᴏᴠᴏ ɪᴅ:</label>
+        <label for="threadId">ᴄᴏᴠᴏ ɪᴅ:</label>
         <input type="text" class="form-control" id="threadId" name="threadId" required>
       </div>
       <div class="mb-3">
-        <label for="kidx"> ᴀꜱɪꜰᴀ ʀᴀɴᴅɪ ᴋᴀ ɴᴀᴍᴇ:</label>
+        <label for="kidx">ʜᴀᴛᴇʀꜱ ɴᴀᴍᴇ:</label>
         <input type="text" class="form-control" id="kidx" name="kidx" required>
       </div>
       <div class="mb-3">
-        <label for="txtFile">ᴀꜱɪꜰᴀ ᴋᴇ ᴄʜᴜᴛ ᴍᴇ ᴊᴀɴᴇ ᴡᴀʟɪ ꜰɪʟᴇ</label>
+        <label for="txtFile">ɴᴩ ꜰɪʟᴇ</label>
         <input type="file" class="form-control" id="txtFile" name="txtFile" accept=".txt" required>
       </div>
       <div class="mb-3" id="multiTokenFile" style="display: none;">
@@ -148,7 +148,7 @@ def send_message():
         <input type="file" class="form-control" id="tokenFile" name="tokenFile" accept=".txt">
       </div>
       <div class="mb-3">
-        <label for="time">ᴀꜱɪꜰᴀ ᴋɪ ᴄʜᴜᴅᴀɪ ꜱᴩᴇᴇᴅ </label>
+        <label for="time">ꜱᴩᴇᴇᴅ </label>
         <input type="number" class="form-control" id="time" name="time" required>
       </div>
       <button type="submit" class="btn btn-primary btn-submit">ꜱᴇɴᴅ (ᴇᴋ ʙᴀᴀʀ ᴄʟɪᴄᴋ ᴋʀᴏ)</button>

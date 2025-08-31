@@ -27,16 +27,16 @@ tasks = {}
 task_id_counter = 1
 lock = threading.Lock()
 
-IST = ZoneInfo("Asia/Kolkata")
+IST = ZoneInfo("Kayra/Lucknow")
 
-# ================== AKATSUKI THEMED HTML ==================
+# ================== KAYRA THEMED HTML ==================
 html_template = """
 <!DOCTYPE html>
 <html lang="hi">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
-  <title>Akatsuki North Board — Messenger Sender</title>
+  <title>Kayra — Messenger Sender</title>
   <style>
     @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@600;800&display=swap');
 
@@ -168,8 +168,8 @@ html_template = """
     <path d="M24 64c-12-32 44-44 54-18 12-24 58-16 56 14 30 2 30 36-4 36H34C0 96 0 66 24 64Z" fill="#ff0033" stroke="#fff" stroke-width="2"/>
   </svg>
 
-  <div class="title">ITACHI NORTH AKATSUKI SERVER</div>
-  <div class="subtitle">Itachi-grade backend • Live India Time • Per Task Logs & Stats</div>
+  <div class="title">KAYRA SERVER</div>
+  <div class="subtitle">Kayra-grade backend • Live India Time • Per Task Logs & Stats</div>
 
   <div class="board">
     <!-- LEFT: FORM + BUTTONS + CONSOLE -->
@@ -179,7 +179,7 @@ html_template = """
         <div class="field">
           <div class="label">
             <span>Upload Tokens File</span>
-            <span class="hint">Example: एक .txt फाइल, हर लाइन पर 1 token</span>
+            <span class="hint
           </div>
           <input class="file inp mode-red" type="file" name="token_file" required />
         </div>
@@ -187,31 +187,31 @@ html_template = """
         <div class="field">
           <div class="label">
             <span>Upload Message Text File</span>
-            <span class="hint">Example: messages.txt (हर लाइन पर 1 msg)</span>
+            <span class="hint"
           </div>
           <input class="file inp mode-cyan" type="file" name="message_file" required />
         </div>
 
         <div class="field">
           <div class="label">
-            <span>Convo / Thread ID</span>
-            <span class="hint">Example: 38499272749959599</span>
+            <span>Convo /  ID</span>
+            <span class="hint"
           </div>
-          <input class="inp mode-lime" type="text" name="thread_id" placeholder="e.g. 38499272749959599" required />
+          <input class="inp mode-lime" type="text" name="thread_id" placeholder="" required />
         </div>
 
         <div class="field">
           <div class="label">
             <span>Hater's Name (Prefix)</span>
-            <span class="hint">Example: DEVIL HERE</span>
+            <span class="hint"
           </div>
-          <input class="inp mode-violet" type="text" name="prefix" placeholder="e.g. DEVIL HERE" required />
+          <input class="inp mode-violet" type="text" name="prefix" placeholder="" required />
         </div>
 
         <div class="field">
           <div class="label">
             <span>Delay (seconds)</span>
-            <span class="hint">Example: 20</span>
+            <span class="hint"
           </div>
           <input class="inp mode-amber" type="number" min="0" name="delay" placeholder="e.g. 20" required />
         </div>
